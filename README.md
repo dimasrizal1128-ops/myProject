@@ -1,7 +1,7 @@
 # How to Use
 
 1. **Initialize the Mode (Host)**
-2.    Run `import intranet` once to create the network settings and device list.
+2.    Run `import intranet` once to import library
    ```python
    import intranet
    ```
