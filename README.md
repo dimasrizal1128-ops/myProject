@@ -1,7 +1,7 @@
 # How to Use
 
 1. **Initialize the Mode (Host)**
-2.    Run `import intranet` once to import library
+Run `import intranet` once to import library
    ```python
    import intranet
    ```
@@ -25,9 +25,9 @@
    ```
 
 5. **Pair Two Devices**
-   Link two connected devices using `intranet.pair(name, device, targetpair)`. It will generate a secret pairing code.
+   Link two connected devices using `print(intranet.pair(name, device, targetpair)`. It will generate a secret pairing code.
    ```python
-   intranet.print(pair("MyNetwork", "Device1", "Device2"))
+   print(intranet.pair("MyNetwork", "Device1", "Device2"))
    # Output: success!please run command runPair <code_number>
    ```
 
